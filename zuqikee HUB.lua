@@ -106,7 +106,7 @@ Third_Sea = true
 end
 
 Fluent:Notify({
-    Title = "Mbm Hub",
+    Title = "Zuqikee Hub",
     Content = "Script load..",
     Duration = 5
 })

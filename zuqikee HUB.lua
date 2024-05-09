@@ -23,7 +23,7 @@ local Window = Fluent:CreateWindow({
     Size = UDim2.fromOffset(515, 350),
     Acrylic = false,
     Theme = "Gray",
-    MinimizeKey = Enum.KeyCode.End
+    MinimizeKey = Enum.KeyCode.LeftControl
 })
 local Tabs = {
     Main = Window:AddTab({ Title = "Main", Icon = "mbm" }),
@@ -1314,7 +1314,7 @@ ImageButton.Size = UDim2.new(0, 50, 0, 50)
 ImageButton.Draggable = true
 ImageButton.Image = "rbxassetid:///17426163835"
 ImageButton.MouseButton1Down:connect(function()
-    game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.End,false,game)
+    game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.LeftControl,false,game)
 end)
 --------------------------------------------------------------------------------------------------------------------------------------------
 --Remove Effect

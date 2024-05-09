@@ -78,12 +78,12 @@ function AntiBan()
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-print("made by minh & dakii")
-    print("mbm x hub")
-    print("join my discord server : https://dsc.gg/m1m")
+print("made by Zuqukee")
+    print("Zuqikee Hub")
+    print("join my discord server : https://discord.gg/NrwhPkn2Tu")
     print("boing boing")
     print("ty for using - have fun")
-    print("sk (on discord : @player.81 & @dakii_90790)")
+    print("sk (on discord : @zuqikee)")
     print("wait ,.,")
     print("LCTSV - .,.")  
 

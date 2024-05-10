@@ -27,11 +27,11 @@ local Window = Fluent:CreateWindow({
 })
 local Tabs = {
     Main = Window:AddTab({ Title = "Main", Icon = "home" }),
-    Stats = Window:AddTab({ Title = "Sub", Icon = "" }),
+    Stats = Window:AddTab({ Title = "Sub", Icon = "mmb" }),
     Info = Window:AddTab({ Title = "Status", Icon = "cloud-moon" }),
     Seaev = Window:AddTab({ Title = "Sea Event", Icon = "waves" }),
     Player = Window:AddTab({ Title = "Player", Icon = "box" }),
-    Teleport = Window:AddTab({ Title = "Teleport", Icon = "waypoints" }),
+    Teleport = Window:AddTab({ Title = "Teleport", Icon = "waypoint" }),
     Fruit = Window:AddTab({ Title = "Blox Fruits", Icon = "cherry" }),
     Raid = Window:AddTab({ Title = "Raids", Icon = "cherry" }),
     Race = Window:AddTab({ Title = "Race Trial", Icon = "chevrons-right" }),

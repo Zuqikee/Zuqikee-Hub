@@ -26,20 +26,20 @@ local Window = Fluent:CreateWindow({
     MinimizeKey = Enum.KeyCode.LeftControl
 })
 local Tabs = {
-    Main = Window:AddTab({ Title = "Main", Icon = "mbm" }),
-    Stats = Window:AddTab({ Title = "Sub", Icon = "mbm" }),
-    Info = Window:AddTab({ Title = "Status", Icon = "mbm" }),
-    Seaev = Window:AddTab({ Title = "Sea Event", Icon = "mbm" }),
-    Player = Window:AddTab({ Title = "Player", Icon = "mbm" }),
-    Teleport = Window:AddTab({ Title = "Teleport", Icon = "mbm" }),
-    Fruit = Window:AddTab({ Title = "Blox Fruits", Icon = "mbm" }),
-    Raid = Window:AddTab({ Title = "Raids", Icon = "mbm" }),
-    Race = Window:AddTab({ Title = "Race Trial", Icon = "mbm" }),
-    Shop = Window:AddTab({ Title = "Shop", Icon = "mbm" }),
-    Misc = Window:AddTab({ Title = "Misc", Icon = "mbm" }),
-    Hop = Window:AddTab({ Title = "Server", Icon = "mbm" }),
-    Setting = Window:AddTab({ Title = "Settings", Icon = "mbm" }),
-    Fluent = Window:AddTab({ Title = "Config", Icon = "mbm" }),
+    Main = Window:AddTab({ Title = "Main", Icon = "home" }),
+    Stats = Window:AddTab({ Title = "Sub", Icon = "" }),
+    Info = Window:AddTab({ Title = "Status", Icon = "cloud-moon" }),
+    Seaev = Window:AddTab({ Title = "Sea Event", Icon = "waves" }),
+    Player = Window:AddTab({ Title = "Player", Icon = "box" }),
+    Teleport = Window:AddTab({ Title = "Teleport", Icon = "waypoint" }),
+    Fruit = Window:AddTab({ Title = "Blox Fruits", Icon = "cherry" }),
+    Raid = Window:AddTab({ Title = "Raids", Icon = "cherry" }),
+    Race = Window:AddTab({ Title = "Race Trial", Icon = "chevrons-right" }),
+    Shop = Window:AddTab({ Title = "Shop", Icon = "shopping-cart" }),
+    Misc = Window:AddTab({ Title = "Misc", Icon = "list-plus" }),
+    Hop = Window:AddTab({ Title = "Server", Icon = "wifi" }),
+    Setting = Window:AddTab({ Title = "Settings", Icon = "settings" }),
+    Fluent = Window:AddTab({ Title = "Config", Icon = "settings" }),
 }
 local Options = Fluent.Options
 do

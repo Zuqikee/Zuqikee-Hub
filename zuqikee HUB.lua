@@ -1327,11 +1327,11 @@ end
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
--- Mbm Hub R - []
+-- Zuqikee Hub R - []
 loadstring(game:HttpGet("https://raw.githubusercontent.com/heatdeck123/firarst/main/anti-cheat.lua"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/heatdeck123/firarst/main/anti-hack.lua"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/heatdeck123/firarst/main/anti-exploit.lua"))()
--- Mbm Hub C - []
+-- Zuqikee Hub C - []
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -2481,7 +2481,7 @@ end)
  end
  Tabs.Fluent:AddParagraph({
     Title = "u can try new theme",
-    Content = "Mbm-Hub Theme"
+    Content = "Zuqikee-Hub Theme"
 })
     local ToggleTweenMirageIsland = Tabs.Seaev:AddToggle("ToggleTweenMirageIsland", {Title = "Tp To Mirage Island", Description = "bay đến đảo bí ẩn", Default = false })
     ToggleTweenMirageIsland:OnChanged(function(Value)
@@ -4768,8 +4768,8 @@ if Third_Sea then
     local Mastery = Tabs.Hop:AddSection("can join mirage / full moon server\n with code in my discord server")
     end
 --]]-- fluent
-InterfaceManager:SetFolder("MBM_HUB")
-SaveManager:SetFolder("MBM_HUB")
+InterfaceManager:SetFolder("ZUQIKEE_HUB")
+SaveManager:SetFolder("ZUQIKEE_HUB")
 SaveManager:SetLibrary(Fluent)
 InterfaceManager:SetLibrary(Fluent)
 SaveManager:IgnoreThemeSettings()
@@ -4780,7 +4780,7 @@ Window:SelectTab(1)
 SaveManager:LoadAutoloadConfig()
 --[[
     end
-    delfolder("MBM_HUB")
+    delfolder("ZUQIKEE_HUB")
 --]]
 if Third_Sea then
 

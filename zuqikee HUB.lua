@@ -31,7 +31,7 @@ local Tabs = {
     Info = Window:AddTab({ Title = "Status", Icon = "cloud-moon" }),
     Seaev = Window:AddTab({ Title = "Sea Event", Icon = "waves" }),
     Player = Window:AddTab({ Title = "Player", Icon = "box" }),
-    Teleport = Window:AddTab({ Title = "Teleport", Icon = "waypoint" }),
+    Teleport = Window:AddTab({ Title = "Teleport", Icon = "waypoints" }),
     Fruit = Window:AddTab({ Title = "Blox Fruits", Icon = "cherry" }),
     Raid = Window:AddTab({ Title = "Raids", Icon = "cherry" }),
     Race = Window:AddTab({ Title = "Race Trial", Icon = "chevrons-right" }),
